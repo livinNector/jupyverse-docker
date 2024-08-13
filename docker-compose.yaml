@@ -1,0 +1,7 @@
+services:
+  jupyverse:
+    build: .
+    image: livinnector/jupyverse:latest
+    container_name: jupyverse
+    network_mode: host
+
